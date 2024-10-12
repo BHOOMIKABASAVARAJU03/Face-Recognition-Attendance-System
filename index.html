@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        .btn {
+            font-size: 18px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Face Recognition Attendance System</h1>
+    <form action="/start_recognition" method="post">
+        <button type="submit" class="btn btn-primary">Start Face Recognition</button>
+    </form>
+    <br>
+    <form action="/stop_recognition" method="post">
+        <button type="submit" class="btn btn-primary">Stop Face Recognition</button>
+    </form>
+    <br>
+    <a href="/attendance" class="btn btn-info mt-3">View Attendance Records</a>
+</body>
+</html>
