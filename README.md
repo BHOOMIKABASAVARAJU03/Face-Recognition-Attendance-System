@@ -10,9 +10,9 @@ Data Storage: CSV/Excel <br>
 Libraries: OpenCV, NumPy, pandas <br>
 
 <h2>Features</h2>
-<li>
-<ul>Automatic attendance logging based on facial recognition.</ul>
-<ul>Real-time display of attendance records on the frontend.</ul>
-<ul>User-friendly interface to view attendance details.</ul>
-<ul>Ability to manage and update pre-stored facial data</ul>
-</li>
+<ul>
+<li>Automatic attendance logging based on facial recognition.</li>
+<li>Real-time display of attendance records on the frontend.</li>
+<li>User-friendly interface to view attendance details.</li>
+<li>Ability to manage and update pre-stored facial data.</li>
+</ul>
